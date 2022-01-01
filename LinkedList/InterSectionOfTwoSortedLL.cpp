@@ -12,9 +12,11 @@ Node* findIntersection(Node* head1, Node* head2){
         if(ptr1->data==ptr2->data){
             
             if(head==NULL){
+
                 Node*t = new Node(ptr1->data);
                 head=t;
                 curr=t;
+                
             }
             
             else{
@@ -44,3 +46,22 @@ Node* findIntersection(Node* head1, Node* head2){
     }
     return head;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
