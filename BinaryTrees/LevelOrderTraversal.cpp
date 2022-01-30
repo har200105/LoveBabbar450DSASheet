@@ -31,7 +31,6 @@ class Solution
             }
             q.pop();
         }
-        
         return ans;
     }
 };
