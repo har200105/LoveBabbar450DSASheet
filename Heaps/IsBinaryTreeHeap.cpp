@@ -35,7 +35,8 @@ int checkheap(Node* root,int n,int index){
        return 0;
    }
 
-   if((root->left && root->left->data > root->data) ||(root->right && root->right->data>root->data)){
+   if((root->left && root->left->data > root->data)
+    ||(root->right && root->right->data>root->data)){
        return 0;
    }
    

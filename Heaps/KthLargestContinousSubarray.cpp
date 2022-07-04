@@ -7,13 +7,11 @@ int kthLargest(vector<int> &Arr,int N,int k){
                 sum+=Arr[j];
                 if(pq.size()<k){
                     pq.push(sum);
-                }else if(pq.top()<sum){
+                }else if(pq.top() < sum){
                     pq.pop();
                     pq.push(sum);
                 }
             }
         }
-        
-        
-        return pq.top();
-    }
+    return pq.top();
+}
