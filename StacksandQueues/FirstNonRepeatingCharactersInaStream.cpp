@@ -1,4 +1,4 @@
-		string FirstNonRepeating(string A){
+string FirstNonRepeating(string A){		
 		
 		string output="";
 	    

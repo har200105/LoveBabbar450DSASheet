@@ -1,4 +1,4 @@
-    int kthElement(int A[], int B[], int n, int m, int k){
+int kthElement(int A[], int B[], int n, int m, int k){
         
         int x=0,i=0,j=0;
         
