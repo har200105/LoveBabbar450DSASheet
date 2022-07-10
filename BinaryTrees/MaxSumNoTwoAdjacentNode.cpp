@@ -1,5 +1,5 @@
 unordered_map<Node*,int>dp;
-    //Function to return the maximum sum of non-adjacent nodes.
+
     int getMaxSum(Node *root) {
         
         if(!root){
