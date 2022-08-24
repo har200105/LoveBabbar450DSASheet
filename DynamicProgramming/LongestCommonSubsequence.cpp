@@ -1,5 +1,4 @@
    int dp[1001][1001];
-    //Function to find the length of longest common subsequence in two strings.
     
     int solve(int x,int y,string s1,string s2){
         

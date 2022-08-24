@@ -1,4 +1,6 @@
+   
    vector<int> solve(Node* root){
+       
         if(!root){
             return {0,0};
         }
@@ -10,13 +12,13 @@
             return {a[0]+1,a[1]+root->data};
         }
         
-            if(a[0]<b[0]){
+        if(a[0]<b[0]){
             return {b[0]+1,b[1]+root->data};
         }
         
         else{
             return {
-                a[0]+1 , max(a[1],b[1])+root->data
+                a[0]+1 ,max(a[1],b[1])+root->data
             };
         }
         

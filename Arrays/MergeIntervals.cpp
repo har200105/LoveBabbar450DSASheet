@@ -10,7 +10,6 @@ public:
         sort(intervals.begin(), intervals.end());
         
         vector<int> tempInterval = intervals[0]; 
-        cout<<tempInterval[0]<<endl;
         
         for(auto it : intervals) {
             if(it[0] <= tempInterval[1]) {

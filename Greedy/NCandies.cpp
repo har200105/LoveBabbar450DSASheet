@@ -1,4 +1,5 @@
    vector<int> candyStore(int candies[], int N, int K){
+        
         sort(candies,candies+N);
         
         int maxi=0;

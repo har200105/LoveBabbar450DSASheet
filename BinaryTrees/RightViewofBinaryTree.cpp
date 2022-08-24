@@ -10,13 +10,15 @@ struct Node
     }
 };
 
-class Solution
-{
+class Solution{
+    
     public:
     
 
     vector<int> rightView(Node *root) {
+
         queue<Node*>q;
+
         vector<int>ans;
         
         if(!root){
@@ -26,10 +28,15 @@ class Solution
         q.push(root);
         
         while(!q.empty()){
+            
             int s = q.size();
+
             Node *t;
+
             while(s--){
+
                 t=q.front();
+
                 q.pop();
                 
                 if(t->left){
@@ -45,6 +52,8 @@ class Solution
         ans.push_back(t->data);
             
         }
+
+
         return ans;
     }
 };

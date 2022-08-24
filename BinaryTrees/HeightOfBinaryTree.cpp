@@ -1,6 +1,6 @@
 
-struct Node
-{
+struct Node{
+
     int data;
     struct Node* left;
     struct Node* right;
@@ -18,7 +18,7 @@ class Solution{
             return 0;
         }
         int x = height(root->left);
-        int y =  height(root->right);
+        int y = height(root->right);
         return max(x,y)+1;
     }
 };

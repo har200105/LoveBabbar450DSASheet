@@ -25,8 +25,6 @@
 
 
 
-// Set Solution
-
 
     int findLongestConseqSubseq(int nums[], int n){
              

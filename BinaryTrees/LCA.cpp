@@ -1,4 +1,5 @@
- Node* lca(Node* root ,int n1 ,int n2 ){
+ 
+Node* lca(Node* root ,int n1 ,int n2 ){
         
         if(!root){
             return NULL;
@@ -14,10 +15,14 @@
         if(l && r){
             return root;
         }
+
         else if(l){
             return l;
-        }else{
+        }
+        
+        else{
             return r;
         }
+
         
     }
