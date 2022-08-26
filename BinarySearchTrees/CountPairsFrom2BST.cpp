@@ -12,8 +12,8 @@ struct Node
 
 
 
-class Solution
-{
+class Solution{
+    
 public:
 
     int c;
@@ -30,15 +30,15 @@ public:
         
         bool x,y;
         
-        x=false;
+        x = false;
         
-        y=false;
+        y = false;
         
-        if(k<root2->data){
+        if(k < root2->data){
             x = fetch(root2->left,k);
         }
         
-        else if(k>root2->data){
+        else if(k > root2->data){
             y=fetch(root2->right,k);
         }
         

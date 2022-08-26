@@ -1,9 +1,8 @@
 class Solution {
 public:   
-    vector <int> boundary(Node *root)
-    {
+    vector <int> boundary(Node *root){
         if(root == NULL){
-            return ;
+            return;
         }
         vector<int> vt;
         vt.push_back(root->data);

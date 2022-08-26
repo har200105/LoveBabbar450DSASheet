@@ -43,14 +43,10 @@ Node* solve(Node*root,vector<Node*> &traversal,int start,int end){
 
 
 
-Node* buildBalancedTree(Node* root){
-    
+Node* buildBalancedTree(Node* root){    
     vector<Node*>traversal;
     inorder(root,traversal);
     int start=0;
     int end=traversal.size()-1;
     return solve(root,traversal,start,end);
-    
-    
-    
 }
