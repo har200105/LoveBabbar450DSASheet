@@ -29,9 +29,9 @@ vector<Node*> printAllDups(Node* root){
     for(auto x:m){
         if(x.second>=2){
             return true;
-        // }else{
+        }
             return false;
-        // }
     }
+     return false;
     
 }

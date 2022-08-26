@@ -7,11 +7,12 @@ struct Node
 
 
 
-class Solution
-{
+class Solution{
+
     public:
-    vector<int> levelOrder(Node* root)
-    {
+
+    vector<int> levelOrder(Node* root){
+        
         vector<int>ans;
         
         if(!root){
@@ -19,7 +20,9 @@ class Solution
         }
         
         queue<Node*>q;
+
         q.push(root);
+        
         while(!q.empty()){
             Node *t  = q.front();
             ans.push_back(t->data);
@@ -31,6 +34,9 @@ class Solution
             }
             q.pop();
         }
+
         return ans;
+    
     }
+
 };

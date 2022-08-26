@@ -18,7 +18,7 @@
         
         else{
             return {
-                a[0]+1 ,max(a[1],b[1])+root->data
+                a[0]+1 , max(a[1],b[1])+root->data
             };
         }
         

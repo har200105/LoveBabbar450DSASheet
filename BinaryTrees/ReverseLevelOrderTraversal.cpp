@@ -1,8 +1,9 @@
-struct Node
-{
+struct Node{
+
     int data;
     Node* left;
     Node* right;
+
 }; 
 
 vector<int> reverseLevelOrder(Node *root){

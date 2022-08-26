@@ -37,7 +37,7 @@ class Solution{
         
     }
     
-    Node * bToDLL(Node *root){
+    Node* bToDLL(Node *root){
         Node* head = NULL;
         Node* prev = NULL;
         int f=0;
